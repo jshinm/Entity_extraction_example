@@ -43,3 +43,5 @@ streamlit run src/dashboard.py
 
 ![frontend image](doc/frontend_capture.PNG)
 
+## Further Improvement
+Current navie implementation only relies on basic text preprocessing followed by entity extract pipeline from SpaCy package further bolstered with Entity Fishing for named entity disambiguation linking against Wikidata knowledge base. As it may be seen from the performance, it still falls short in generalization when it comes to entity extraction. Additional method that may be worthwhile to implement is n-gram grouping followed by ensemble report strategy where span probabily (spaCy SpanCategorizer) can filter down noise and improve on word-level contextual prediction.
