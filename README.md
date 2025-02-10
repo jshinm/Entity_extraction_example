@@ -1,5 +1,4 @@
-# Entity_extraction_example
-## Overview
+# Named Entity Extraction Demo Project
 
 This repository contains an example of entity extraction using natural language processing (NLP) techniques. The goal is to identify and extract specific entities from a given text, such as names, dates, locations, and more.
 
@@ -11,14 +10,6 @@ To install the necessary dependencies, run the following command:
 pip install -r requirements.txt
 ```
 
-## Usage
-
-To run the entity extraction example, use the following command:
-
-```bash
-python main.py
-```
-
 ## Source Files
 Following Python source files are included in `/src` path.
 
@@ -27,6 +18,11 @@ Following Python source files are included in `/src` path.
 - `dashboard.py`: Streamlit frontend application. Visualizes extracted entities and their graphical represatation
 
 ## Backend Server Testing
+
+To spin up the Flask backend server, user the following command.
+```bash
+python src/app.py
+```
 Flask backend server takes the input payload as the following example.
 ```python
 url = "http://127.0.0.1:5000/endpoint"
