@@ -1,6 +1,7 @@
 import requests
 
 url = "http://127.0.0.1:5000/endpoint"
+url = "https://67a90c545fca595218e1a108--entity-extraction.netlify.app/endpoint"
 payload = {
     "text": "Project Phoenix: A Comprehensive Plan to Expand Redwood Tech Solutions\n\n### Table of Contents\n1. [Introduction](#introduction)\n2. [Project Objectives](#project-objectives)\n3. [Key Stakeholders](#key-stakeholders)\n4. [Market Analysis](#market-analysis)\n5. [Product Roadmap](#product-roadmap)\n6. [Budget & Resource Allocation](#budget--resource-allocation)\n7"
 }
