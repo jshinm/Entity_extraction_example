@@ -172,3 +172,5 @@ cython_debug/
 
 # custom
 dev
+# Local Netlify folder
+.netlify
